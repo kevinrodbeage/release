@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.1-0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nps",
+    "preToPatch": "npm start version.preToPatch",
+    "pre": "npm start version.pre",
+    "patch": "npm start version.patch",
+    "release": "npm start version.release",
+    "release2": "npm start version.release2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrodbeage/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinrodbeage/test/issues"
+  },
+  "homepage": "https://github.com/kevinrodbeage/test#readme",
+  "devDependencies": {
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0",
+    "release-it": "^14.12.1",
+    "taggit": "^2.0.3"
+  }
+}
