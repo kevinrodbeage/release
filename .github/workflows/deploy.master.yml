@@ -2,7 +2,7 @@ name: Deploy develop
 on:
   push:
     branches:
-      - main
+      - 'master'
 jobs:
   bumping:
     name: Bumping version
