@@ -1,12 +1,13 @@
 {
   "name": "test",
-  "version": "1.0.1-0",
+  "version": "1.0.1-2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nps",
     "preToPatch": "npm start version.preToPatch",
     "pre": "npm start version.pre",
+    "minor": "npm start version.minor",
     "patch": "npm start version.patch",
     "release": "npm start version.release",
     "release2": "npm start version.release2"
